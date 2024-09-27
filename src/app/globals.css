@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .max-width {
   @apply max-w-[1240px] mx-auto px-6;
 }
@@ -67,5 +71,9 @@
 }
 
 .btn-primary {
-  @apply uppercase w-[150px] font-bold text-sm px-4 py-3 border-[1px] border-primary rounded-lg duration-150 ease-in bg-primary hover:bg-primary/80 hover:text-white/80;
+  @apply uppercase w-[150px] font-bold shadow text-sm px-4 py-3 border-[1px] border-primary rounded-lg duration-150 ease-in bg-primary hover:bg-primary/80 hover:text-white/80;
+}
+
+.btn-outline {
+  @apply uppercase w-[150px] font-bold shadow text-sm px-4 py-3 border-[1px] border-white/50 rounded-lg duration-150 ease-in hover:bg-white/5 hover:text-white/80;
 }
