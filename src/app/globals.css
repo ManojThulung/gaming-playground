@@ -65,3 +65,7 @@
     hsl(238deg 40% 35%) 100%
   );
 }
+
+.btn-primary {
+  @apply uppercase w-[150px] font-bold text-sm px-4 py-3 border-[1px] border-primary rounded-lg duration-150 ease-in bg-primary hover:bg-primary/80 hover:text-white/80;
+}

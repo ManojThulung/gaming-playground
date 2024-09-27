@@ -8,7 +8,7 @@ import { Menu, X } from "react-feather";
 import { NavBarList } from "@/constant";
 
 const Navbar = () => {
-  const [sidebarVisible, setSidebarVisible] = useState(true);
+  const [sidebarVisible, setSidebarVisible] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const currentPath = usePathname();
 
