@@ -7,9 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Barlow"', "sans-serif"],
+        condensed: ['"Barlow Condensed"', "sans-serif"],
+      },
+      screens: {
+        xs: "460px",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#6357F6",
+        secondary: "#E6606C",
       },
     },
   },

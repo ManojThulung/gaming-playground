@@ -1,27 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.max-width {
+  @apply max-w-[1240px] mx-auto px-6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.graident-1 {
+  background-image: linear-gradient(
+    45deg,
+    hsl(238deg 40% 35%) 0%,
+    hsl(238deg 40% 33%) 1%,
+    hsl(238deg 40% 32%) 3%,
+    hsl(238deg 40% 31%) 5%,
+    hsl(238deg 41% 30%) 7%,
+    hsl(238deg 41% 29%) 9%,
+    hsl(238deg 41% 28%) 12%,
+    hsl(238deg 42% 27%) 15%,
+    hsl(238deg 42% 25%) 19%,
+    hsl(238deg 43% 24%) 24%,
+    hsl(238deg 44% 22%) 32%,
+    hsl(238deg 45% 21%) 48%,
+    hsl(238deg 44% 22%) 65%,
+    hsl(238deg 43% 24%) 73%,
+    hsl(238deg 42% 25%) 79%,
+    hsl(238deg 42% 27%) 83%,
+    hsl(238deg 41% 28%) 87%,
+    hsl(238deg 41% 29%) 90%,
+    hsl(238deg 41% 30%) 92%,
+    hsl(238deg 40% 31%) 94%,
+    hsl(238deg 40% 32%) 96%,
+    hsl(238deg 40% 33%) 98%,
+    hsl(238deg 40% 35%) 100%
+  );
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.gradient-2 {
+  background-image: linear-gradient(
+    135deg,
+    hsl(238deg 40% 35%) 0%,
+    hsl(238deg 40% 33%) 1%,
+    hsl(238deg 40% 32%) 3%,
+    hsl(238deg 40% 31%) 5%,
+    hsl(238deg 41% 30%) 7%,
+    hsl(238deg 41% 29%) 9%,
+    hsl(238deg 41% 28%) 12%,
+    hsl(238deg 42% 27%) 15%,
+    hsl(238deg 42% 25%) 19%,
+    hsl(238deg 43% 24%) 24%,
+    hsl(238deg 44% 22%) 32%,
+    hsl(238deg 45% 21%) 48%,
+    hsl(238deg 44% 22%) 65%,
+    hsl(238deg 43% 24%) 73%,
+    hsl(238deg 42% 25%) 79%,
+    hsl(238deg 42% 27%) 83%,
+    hsl(238deg 41% 28%) 87%,
+    hsl(238deg 41% 29%) 90%,
+    hsl(238deg 41% 30%) 92%,
+    hsl(238deg 40% 31%) 94%,
+    hsl(238deg 40% 32%) 96%,
+    hsl(238deg 40% 33%) 98%,
+    hsl(238deg 40% 35%) 100%
+  );
 }
