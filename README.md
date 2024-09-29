@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gaming Playground
+
+## Project Overview
+
+The project is built using Next.js with the App Router, this project provides a seamless and responsive user experience.
+
+## Technologies Used
+
+- **Next.js**: Utilized for server-side rendering and routing.
+- **React-Feather**: Implemented for scalable and customizable icons.
+- **@svgr/webpack**: Used for importing SVG icons efficiently.
+
+## Current Progress
+
+The project is complete up to the **Game Portfolio** section, featuring a user-friendly layout and interactive elements.
 
 ## Getting Started
 
