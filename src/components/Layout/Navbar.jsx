@@ -29,8 +29,8 @@ const Navbar = () => {
   });
 
   return (
-    <header className="text-white pb-2 absolute top-0 left-0 w-[100vw] z-20">
-      {isSticky && <div className="h-[80px]" />}
+    <header className="text-white pb-2 absolute top-0 left-0 right-0 z-20">
+      {isSticky && <div className="h-[70px]" />}
 
       <nav
         className={`h-[70px] text-secondary-dark py-1  ${
@@ -39,7 +39,7 @@ const Navbar = () => {
       >
         <div className="max-width flex items-center justify-between h-full ">
           <div className="flex items-center gap-x-2 uppercase">
-            <Link href="/">
+            <Link href="/#">
               <h1 className="font-condensed text-4xl font-light duration-150 ease-in hover:text-white/80">
                 GMV
               </h1>

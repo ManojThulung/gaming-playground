@@ -9,10 +9,10 @@ html {
 }
 
 .max-width {
-  @apply max-w-[1240px] mx-auto px-6;
+  @apply max-w-[1240px] mx-auto px-6 overflow-x-hidden;
 }
 
-.graident-1 {
+.gradient-1 {
   background-image: linear-gradient(
     45deg,
     hsl(238deg 40% 35%) 0%,
@@ -43,7 +43,7 @@ html {
 
 .gradient-2 {
   background-image: linear-gradient(
-    135deg,
+    150deg,
     hsl(238deg 40% 35%) 0%,
     hsl(238deg 40% 33%) 1%,
     hsl(238deg 40% 32%) 3%,
@@ -70,10 +70,33 @@ html {
   );
 }
 
+.card-bg {
+  background: rgb(1, 0, 89);
+  background: linear-gradient(
+    0deg,
+    rgba(1, 0, 89, 1) 0%,
+    rgba(43, 45, 102, 1) 64%
+  );
+}
+
 .btn-primary {
   @apply uppercase w-[150px] font-bold shadow text-sm px-4 py-3 border-[1px] border-primary rounded-lg duration-150 ease-in bg-primary hover:bg-primary/80 hover:text-white/80;
 }
 
 .btn-outline {
   @apply uppercase w-[150px] font-bold shadow text-sm px-4 py-3 border-[1px] border-white/50 rounded-lg duration-150 ease-in hover:bg-white/5 hover:text-white/80;
+}
+
+.sticky-nav {
+  @apply fixed h-[70px] bg-[#1F204F] left-0 right-0 top-[-4px] to-zinc-300 z-[9999] shadow-lg;
+  animation: navIn 0.5s forwards;
+}
+
+@keyframes navIn {
+  from {
+    transform: translateY(-160px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }

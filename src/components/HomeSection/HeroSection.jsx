@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="min-h-screen max-width pt-[80px] flex justify-center items-center pb-16">
-      <div className="flex flex-col-reverse md:flex-row gap-5 w-full">
+      <div className="flex flex-col-reverse md:flex-row w-full">
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start gap-7">
           <h2 className="uppercase text-base text-white/50">
             GAME DEVELOPMENT
@@ -12,7 +12,7 @@ const HeroSection = () => {
           <h1 className="font-condensed text-5xl sm:text-6xl lg:text-7xl font-light md:max-w-[400px]">
             The Art Of Creating Games{" "}
           </h1>
-          <p className="text-base sm:text-xl md:max-w-[450px]">
+          <p className="text-xl md:max-w-[450px]">
             Game Development is the art of creating games and describes the
             design, development and release.
           </p>
